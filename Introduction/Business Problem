@@ -1,5 +1,11 @@
 This project is about a data analysis and model building for predicting the severity of car accidents in Seattle.
 
+1.Local government may be interested in the results, procceding with some kind of signs in specific places that warn drivers in case there is of high probability of an accident.
+2.Some application software firm may be interested in the results, in order to create a devive along with an application which drivers can use in their vehicles. This device will
+  do the same job, as aforementioned.
+
+The model is built hoping to reduce car accidents by predicting when they are likely to happen and in what 'severity'.
+
 The data source is: https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Data-Collisions.csv
 ...and the metadata: https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Metadata.pdf
 
