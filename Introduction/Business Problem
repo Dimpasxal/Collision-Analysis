@@ -1,0 +1,12 @@
+This project is about a data analysis and model building for predicting the severity of car accidents in Seattle.
+
+The data source is: https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Data-Collisions.csv
+...and the metadata: https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Metadata.pdf
+
+The data range from 2004
+The severity scale is 0 to 3 (3—fatality
+                              2b—serious injury
+                              2—injury
+                              1—prop damage
+                              0—unknown)...
+...all the incidents of the dataset were either 'propert damage'(1) or 'injury'(2) for the predictions of the model will be bound to this range.
