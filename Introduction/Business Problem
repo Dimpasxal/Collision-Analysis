@@ -15,4 +15,4 @@ The severity scale is 0 to 3 (3—fatality
                               2—injury
                               1—prop damage
                               0—unknown)...
-...all the incidents of the dataset were either 'propert damage'(1) or 'injury'(2) for the predictions of the model will be bound to this range.
+...all the incidents of the dataset were either 'property damage'(1) or 'injury'(2) for the predictions of the model will be bound to this range.
