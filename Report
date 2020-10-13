@@ -1,7 +1,26 @@
+This project is about a data analysis and model building for predicting the severity of car accidents in Seattle.
+
+1.Local government may be interested in the results, procceding with some kind of signs in specific places that warn drivers in case there is of high probability of an accident.
+2.Some application software firm may be interested in the results, in order to create a devive along with an application which drivers can use in their vehicles. This device will
+  do the same job, as aforementioned.
+
+The model is built hoping to reduce car accidents by predicting when they are likely to happen and in what 'severity'.
+
+The data source is: https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Data-Collisions.csv
+...and the metadata: https://s3.us.cloud-object-storage.appdomain.cloud/cf-courses-data/CognitiveClass/DP0701EN/version-2/Metadata.pdf
+
+The data range from 2004
+The severity scale is 0 to 3 (3—fatality
+                              2b—serious injury
+                              2—injury
+                              1—prop damage
+                              0—unknown)...
+...all the incidents of the dataset were either 'property damage'(1) or 'injury'(2) for the predictions of the model will be bound to this range.
+
 The methodoly I used was the following: Because the Severity of the recorded collisions was only of category 1 and 2, I converted them into 0 and 1 so I could feed
 a logistic regression model.
 
-Furthermore, for variable that had some meaning but couldn't be fitted in the model, I analyzed them in a different way.
+Furthermore, for variables that had some meaning but couldn't be fitted in the model, I analyzed them in a different way.
 For example, I figured out what are the most common place in Seatle for an accident to happen. Or what time of the day is more likely an accident to happen. 
 Knowing that, local government can instal sign in those areas or the model could have increased sensitivity during 'hot' hours.
 
