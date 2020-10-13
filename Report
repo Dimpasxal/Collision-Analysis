@@ -1,0 +1,9 @@
+The methodoly I used was the following: Because the Severity of the recorded collisions was only of category 1 and 2, I converted them into 0 and 1 so I could feed
+a logistic regression model.
+
+Furthermore, for variable that had some meaning but couldn't be fitted in the model, I analyzed them in a different way.
+For example, I figured out what are the most common place in Seatle for an accident to happen. Or what time of the day is more likely an accident to happen. 
+Knowing that, local government can instal sign in those areas or the model could have increased sensitivity during 'hot' hours.
+
+The exogenous parameters fitted well in the model, and the model does a good job predicting when it is likely to have an accident of severity 1 (property damage).
+On the other hand, the model does poorly predicting when it's going to be an accident of severity 2 (light injury).
